@@ -1,0 +1,81 @@
+{
+  "wind_pressure_analysis": {
+    "basic_wind_pressure": 0.378057126751564,
+    "height_correction": 1.1,
+    "open_correction": 1.0,
+    "pressures": {
+      "windward_edge": {
+        "shape_coefficient": 0.8,
+        "pressure": 0.33269027154137637,
+        "pressure_kpa": 0.33269027154137637
+      },
+      "leeward_edge": {
+        "shape_coefficient": -0.5,
+        "pressure": -0.2079314197133602,
+        "pressure_kpa": 0.2079314197133602
+      },
+      "side_edge": {
+        "shape_coefficient": -0.7,
+        "pressure": -0.2911039875987043,
+        "pressure_kpa": 0.2911039875987043
+      },
+      "center": {
+        "shape_coefficient": -0.2,
+        "pressure": -0.08317256788534409,
+        "pressure_kpa": 0.08317256788534409
+      },
+      "corner": {
+        "shape_coefficient": -1.0,
+        "pressure": -0.4158628394267204,
+        "pressure_kpa": 0.4158628394267204
+      }
+    },
+    "parameters": {
+      "wind_speed": 25.0,
+      "roof_type": "flat_roof",
+      "roof_height": 6.0,
+      "roof_length": 25.0,
+      "roof_width": 18.0,
+      "wind_direction": "normal",
+      "altitude": 100,
+      "temperature": 15
+    }
+  },
+  "wind_load_analysis": {
+    "total_roof_area": 450.0,
+    "total_wind_load": -46.78456943550604,
+    "loads": {
+      "windward_edge": {
+        "area": 90.0,
+        "load": 29.942124438723873,
+        "load_kn": 29.942124438723873
+      },
+      "leeward_edge": {
+        "area": 90.0,
+        "load": -18.713827774202418,
+        "load_kn": 18.713827774202418
+      },
+      "side_edge": {
+        "area": 135.0,
+        "load": -39.29903832582508,
+        "load_kn": 39.29903832582508
+      },
+      "center": {
+        "area": 112.5,
+        "load": -9.35691388710121,
+        "load_kn": 9.35691388710121
+      },
+      "corner": {
+        "area": 22.5,
+        "load": -9.356913887101209,
+        "load_kn": 9.356913887101209
+      }
+    }
+  },
+  "summary": {
+    "max_pressure": 0.4158628394267204,
+    "min_pressure": -0.4158628394267204,
+    "total_load": -46.78456943550604,
+    "roof_area": 450.0
+  }
+}
